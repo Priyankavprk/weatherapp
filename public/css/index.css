@@ -1,0 +1,166 @@
+ body {
+  font-family: 'Dosis', sans-serif;
+  color:#FF5733;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 56px;
+  color: #FFF;
+  background: #3F51B5;
+  position: fixed;
+  font-size: 20px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  padding: 16px 16px 0 16px;
+  display: flex;
+   }
+  .header .headerButton {
+    width: 24px;
+    height: 24px;
+    margin-right: 50px;
+    opacity: 0.54;
+    border: none;
+    outline: none;
+    cursor: pointer; }
+  .header #getLoc {
+    background: url(/images/images.png) center center no-repeat; }
+  .header #butAdd {
+    background: url(/images/add.svg) center center no-repeat; }
+
+.header__title {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  flex: 1; }
+
+.climate_bg {
+  position: absolute;
+  top: 0;
+  left: 235px;
+  z-index: 6;
+  width: 163px;
+  height: 149px;
+  border-top-right-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.weathericon {
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 1.226993865%;
+  z-index: 5;
+  width: 160px;
+  height: auto;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 398px;
+  height: 208px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+
+.dropicon {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: -3.9110429448%;
+  z-index: 3;
+  width: 41px;
+  height: auto;
+  overflow: hidden;
+}
+
+
+.humidity {
+  position: absolute;
+  top: 19px;
+  left: 29px;
+  z-index: 2;
+  width: 46px;
+  min-height: 29px;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.info_bg {
+  position: absolute;
+  top: 149px;
+  left: 235px;
+  z-index: 4;
+  width: 163px;
+  height: 59px;
+  border-bottom-right-radius: 10px;
+  background-color: #1ab1ed;
+}
+
+.location {
+  position: absolute;
+  top: 128px;
+  left: 63px;
+  z-index: 8;
+  width: 108px;
+  min-height: 59px;
+  font-size: 1.313em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.temperature {
+  position: absolute;
+  top: 38px;
+  left: 72px;
+  z-index: 7;
+  width: 109px;
+  min-height: 28px;
+  font-size: 4.25em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.windicon {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 43.1173312883%;
+  z-index: 1;
+  width: 50px;
+  height: auto;
+  overflow: hidden;
+}
+
+.windspeed {
+  position: absolute;
+  top: 19px;
+  left: 109px;
+  width: 50px;
+  min-height: 29px;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

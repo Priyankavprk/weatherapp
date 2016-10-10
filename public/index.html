@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>weather</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" >
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,500,800,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src = "control.js">
+</script>
+</head>
+<body>
+<header class="header">
+    <h1 class="header__title">Weather App</h1>
+    <button id="getLoc" class="headerButton" aria-label="Add" onclick ="getLoc()"></button>
+    <button id="butAdd" class="headerButton" aria-label="Add" onclick ="getPin()"></button>
+  </header>
+  <div class="container clearfix">
+    <span class ="location" id = "location">UNKNOWN</span>
+    <span class="temperature" id ="temperature">0&deg;</span>
+    <div class ="climate_bg"><img id = "icon" src="http://openweathermap.org/img/w/10d.png"></div>
+    <div class="info_bg">
+      <img class ="dropicon" src="images/Droplet.svg">
+      <span class="humidity" id = "humidity">0%</span>
+
+      <img class="windicon" src="images/Wind.svg">
+      <div class ="windspeed" id = "windspeed">0mph</span></div>
+    </div>
+  </div>
+</body>
+</html>
